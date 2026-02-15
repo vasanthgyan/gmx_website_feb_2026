@@ -20,13 +20,6 @@
     <meta property="og:description" content="Scale from 3 engineers to a 300+ member AI-First GCC. Enterprise-grade engineering infrastructure for global brands.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.gyanmatrix.com/">
-    <meta property="twitter:title" content="GyanMatrix | AI Engineering GCC Partner in India">
-    <meta property="twitter:description" content="Build your dedicated AI-First Global Capability Center (GCC) in India. Elite talent, IP ownership, and operational excellence.">
-    <meta property="twitter:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80">
-
     <!-- UI / Performance -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,10 +57,10 @@
 <script type="importmap">
 {
   "imports": {
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
-    "react/": "https://esm.sh/react@^19.2.4/",
     "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
     "vite": "https://esm.sh/vite@^7.3.1",
     "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.4"
   }
@@ -76,5 +69,7 @@
 </head>
 <body class="bg-[#0a0a0a] text-white overflow-x-hidden">
     <div id="root"></div>
+    <!-- Entry Point for Vite -->
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
