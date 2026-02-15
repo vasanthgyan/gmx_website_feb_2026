@@ -1,0 +1,7 @@
+{
+  "name": "GyanMatrix Technologies - AI-First GCC Partner",
+  "description": "An enterprise-grade platform for AI engineering and Global Capability Center (GCC) operations, built for the 2026 AI era.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
